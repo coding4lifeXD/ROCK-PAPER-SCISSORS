@@ -62,8 +62,8 @@ function choose() {
     playerTwoScoreOutput.textContent = playerTwoScore;
   }
   // updating innerHTML of both playerOutputs
-  playerOneOutput.innerHTML = `<p>Player One</p><img src="img/${rockPaperScissorsArray[playerOneRandomNum].img}"><p>Weapon: ${rockPaperScissorsArray[playerOneRandomNum].type}</p>`;
-  playerTwoOutput.innerHTML = `<p>Player Two</p><img src="img/${rockPaperScissorsArray[playerTwoRandomNum].img}"><p>Weapon: ${rockPaperScissorsArray[playerTwoRandomNum].type}</p>`;
+  playerOneOutput.innerHTML = `<p>Player One</p><img src="${rockPaperScissorsArray[playerOneRandomNum].img}"><p>Weapon: ${rockPaperScissorsArray[playerOneRandomNum].type}</p>`;
+  playerTwoOutput.innerHTML = `<p>Player Two</p><img src="${rockPaperScissorsArray[playerTwoRandomNum].img}"><p>Weapon: ${rockPaperScissorsArray[playerTwoRandomNum].type}</p>`;
 }
 
 // adding choose function tp click event listener to selectorBtn
