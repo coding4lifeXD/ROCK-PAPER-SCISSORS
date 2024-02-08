@@ -2,7 +2,6 @@
 let playerOneScore = 0;
 let playerTwoScore = 0;
 let selectorBtn = document.getElementById("selectorBtn");
-let html = document.documentElement;
 let playerOneScoreOutput = document.getElementById("player1Score");
 let playerTwoScoreOutput = document.getElementById("player2Score");
 let playerOneOutput = document.getElementById("player1Out");
