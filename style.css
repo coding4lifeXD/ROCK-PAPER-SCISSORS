@@ -4,6 +4,9 @@ html {
   background: #00b4ff;
   font-family: "Open Sans", sans-serif;
 }
+h2 {
+  font-size: clamp(24px, 5vw, 30px);
+}
 p {
   text-align: center;
   font-family: "Lato", sans-serif;
